@@ -1,10 +1,9 @@
-#Lesson 65 Simple return
+"""Lesson 65 Simple return 
+Obtaining info
 
-#Obtaining info
+Calculating simple return
 
-#Calculating simple return
-
-#Plotting
+Plotting"""
 import numpy as np
 from pandas_datareader import data as wb
 import matplotlib.pyplot as plt

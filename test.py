@@ -1,6 +1,5 @@
-# less66
+# less67
 # simple portfolio of 4 assets with equal weights
-
 import pandas as pd
 import numpy as np
 from pandas_datareader import data as wb
