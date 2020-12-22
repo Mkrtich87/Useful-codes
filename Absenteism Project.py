@@ -58,3 +58,11 @@ column_names = ['Date', 'Transportation Expense', 'Distance to Work', 'Age',
       
 df.columns=column_names
 df.head()
+column_names_reordered = ['Reason_1','Reason_2', 'Reason_3', 'Reason_4', 'Date', 'Transportation Expense', 'Distance to Work', 'Age',
+       'Daily Work Load Average', 'Body Mass Index', 'Education',
+       'Children', 'Pets', 'Absenteeism Time in Hours']
+df=df[column_names_reordered] 
+df(head)
+df_reason_mod=df.copy()
+df_reason_mod
+df_reason_mod['Date']
