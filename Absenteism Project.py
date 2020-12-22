@@ -49,3 +49,12 @@ reason_type_2=reason_columns.loc[:,15:17].max(axis=1)
 reason_type_3=reason_columns.loc[:,18:21].max(axis=1)
 reason_type_4=reason_columns.loc[:,22:].max(axis=1)
 reason_type_1
+df = pd.concat([df,reason_type_1,reason_type_2,reason_type_3,reason_type_4], axis = 1)
+df
+df.columns.values
+column_names = ['Date', 'Transportation Expense', 'Distance to Work', 'Age',
+       'Daily Work Load Average', 'Body Mass Index', 'Education',
+       'Children', 'Pets', 'Absenteeism Time in Hours', 'Reason_1','Reason_2', 'Reason_3', 'Reason_4']
+      
+df.columns=column_names
+df.head()
